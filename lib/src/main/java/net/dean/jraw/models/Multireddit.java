@@ -79,6 +79,7 @@ public abstract class Multireddit implements Created, Referenceable<MultiredditR
     public abstract String getVisibility();
 
     /** Either 'classic' or 'fresh' */
+    @Nullable
     @Json(name = "weighting_scheme") public abstract String getWeightingScheme();
 
     @NotNull
