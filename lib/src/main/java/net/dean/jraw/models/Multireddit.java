@@ -44,6 +44,7 @@ public abstract class Multireddit implements Created, Referenceable<MultiredditR
     @Json(name = "display_name") public abstract String getDisplayName();
 
     /** See {@link MultiredditPatch#getIconName()} */
+    @Nullable
     @Json(name = "icon_name") public abstract String getIconName();
 
     /**
